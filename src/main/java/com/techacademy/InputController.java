@@ -12,6 +12,11 @@ public class InputController {
         // input.htmlに画面遷移
         return "input";
     }
+        @GetMapping("/msg")
+        public String getMsg() {
+            // msg.htmlに画面遷移
+            return "msg";
+    }
 
 
 }
